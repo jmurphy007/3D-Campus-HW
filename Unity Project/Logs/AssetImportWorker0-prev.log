@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 12095 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/Homework 3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62443
+Successfully changed project path to: D:/Unity/Projects/Homework 3
+D:/Unity/Projects/Homework 3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 137.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/Homework 3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002004 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007032 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Homework 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Homework 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1557ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (2.2 MB). Loaded Objects now: 5521.
+Memory consumption went from 205.0 MB to 202.8 MB.
+Total: 4.005700 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.390800 ms MarkObjects: 2.673500 ms  DeleteObjects: 0.535000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36398.228859 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f06dcb57133e5295c5626b02442b01e') in 0.043243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+  artifactKey: Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm using Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4792fe2241f35b30c8a7577575e5d306') in 2.730881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab
+  artifactKey: Guid(87a2357765801c34292d6718d8b4d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab using Guid(87a2357765801c34292d6718d8b4d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde3c15b6706e4496ac626aa9394e86b') in 1.821112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1294dcd02ba104e16b9f517b81b92d0') in 0.668776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx
+  artifactKey: Guid(df4796b594b970842b69211cb0078c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx using Guid(df4796b594b970842b69211cb0078c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cebc79c7d595eb1bca70936b85e07ae') in 0.037624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab
+  artifactKey: Guid(2a71c12ae885e4f80b5144a4652bbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab using Guid(2a71c12ae885e4f80b5144a4652bbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d601d3485447a029633eb4dfbab08cc') in 0.005049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab
+  artifactKey: Guid(0eb16b4b3e362ef4f97494dd0e686c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab using Guid(0eb16b4b3e362ef4f97494dd0e686c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c322bbd749cd1be47a2e86331f429b') in 0.074030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx
+  artifactKey: Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx using Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272ed9ec434aea5c61567a8d88bb4552') in 0.316410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx
+  artifactKey: Guid(63742edd796d522458d772b44affdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx using Guid(63742edd796d522458d772b44affdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0257c224be7b1d7ab5ad382b4f06d0') in 1.279701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5558a9a8174c26fc1e3908968fac10') in 0.088087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aac4f314a7c4b23d6d85eeb68af6c3') in 0.413374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab
+  artifactKey: Guid(cd707c1f484f43249bab272ac76a0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab using Guid(cd707c1f484f43249bab272ac76a0174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79f89237957ce98803c1f0af958cb3') in 0.434419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab
+  artifactKey: Guid(5d2e4237b4429b34fae4c9eb3cd9efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab using Guid(5d2e4237b4429b34fae4c9eb3cd9efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfb9bab6e8c2533579076ce4c691000') in 0.330133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx
+  artifactKey: Guid(3f79402ff4ca9c54d96a09d1a77540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx using Guid(3f79402ff4ca9c54d96a09d1a77540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bef423e28d20251fb18380f2e2add14') in 0.047286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eca6716b901741e71be7c91b4150e16') in 0.179849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92420820b9ba9a3d3d281abdeaa54ac') in 1.663694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+  artifactKey: Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm using Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890cc7ae2d9c63d8f3a8248c58a723e4') in 1.442110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.584762 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(d6ad08db47ff8594d8df309392389b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(d6ad08db47ff8594d8df309392389b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a1c0dbe8e758a4fdf4157a7be86baf') in 0.328906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1913.260353 seconds.
+  path: Assets/LanternGlass.mat
+  artifactKey: Guid(70406c8b15042ed45b24f26a466030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LanternGlass.mat using Guid(70406c8b15042ed45b24f26a466030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa55a305d1f0ff5d701611d45227480') in 0.064011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1298.410717 seconds.
+  path: Assets/LanternGlass.mat
+  artifactKey: Guid(70406c8b15042ed45b24f26a466030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LanternGlass.mat using Guid(70406c8b15042ed45b24f26a466030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a04164fae3e01d855212eacd92f9835') in 0.022148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.432112 seconds.
+  path: Assets/Pichu.FBX
+  artifactKey: Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pichu.FBX using Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d541aba8ec88783b965fd9505bf0542') in 0.078821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.847597 seconds.
+  path: Assets/Pichu.FBX
+  artifactKey: Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pichu.FBX using Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306fc20dcde42179a03a0071bff191d7') in 0.066158 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Homework 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\Homework 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4950 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (2.2 MB). Loaded Objects now: 5577.
+Memory consumption went from 219.6 MB to 217.4 MB.
+Total: 5.299700 ms (FindLiveObjects: 0.524000 ms CreateObjectMapping: 0.476400 ms MarkObjects: 3.606300 ms  DeleteObjects: 0.691400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 261.190468 seconds.
+  path: Assets/PokemonAssets
+  artifactKey: Guid(d6ca655f3fa1de9438292ef672357bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets using Guid(d6ca655f3fa1de9438292ef672357bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3417f486a5f6ca970c88239e2122347') in 0.010353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.042424 seconds.
+  path: Assets/images
+  artifactKey: Guid(3a11092c9f1682a4e9021312da591303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images using Guid(3a11092c9f1682a4e9021312da591303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce815e9d38087ad17baa20362668079e') in 0.001794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.073168 seconds.
+  path: Assets/PichuImages
+  artifactKey: Guid(3a11092c9f1682a4e9021312da591303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PichuImages using Guid(3a11092c9f1682a4e9021312da591303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0024e65b6b062f3c730d57053b7278a2') in 0.001799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.974596 seconds.
+  path: Assets/PokemonAssets/Pichu
+  artifactKey: Guid(c90e46d2f56ff1244ba62eb77151c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu using Guid(c90e46d2f56ff1244ba62eb77151c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb75f69bf2e1d26870adcec2da0515a7') in 0.001630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.171007 seconds.
+  path: Assets/PokemonAssets/Bidoof
+  artifactKey: Guid(08a18b096694ad5449c596c51c200f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof using Guid(08a18b096694ad5449c596c51c200f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b887a0637f48598d88a6dd227e206c') in 0.001878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.133699 seconds.
+  path: Assets/PokemonAssets/Budew
+  artifactKey: Guid(f10d64859fa57904bbb772b9ddbb1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Budew using Guid(f10d64859fa57904bbb772b9ddbb1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ded548ebfcf5bcf8e8e00095e6f973') in 0.010449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.394009 seconds.
+  path: Assets/PokemonAssets/Pichu/Pichu.FBX
+  artifactKey: Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/Pichu.FBX using Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b20e936088c2b64954c2e9243ddc431') in 0.183079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.937752 seconds.
+  path: Assets/PokemonAssets/Pichu/Pichu.FBX
+  artifactKey: Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/Pichu.FBX using Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271b18df44ced0aa2613520116398f5b') in 0.036486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.691586 seconds.
+  path: Assets/PokemonAssets/Pichu/images/Material #146.mat
+  artifactKey: Guid(c3df562ef68e64042af77f6df6cdf20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/Material #146.mat using Guid(c3df562ef68e64042af77f6df6cdf20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ced5d280cb682cad5e6e85c610085') in 0.018163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBNor.png
+  artifactKey: Guid(1e0dd98d2e261fe48b01f4635c8f716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBNor.png using Guid(1e0dd98d2e261fe48b01f4635c8f716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4263aa368f98b71003d4be3739a03d8d') in 0.046723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBNor_Alpha.png
+  artifactKey: Guid(7057cf62e20104d44a2fc425f418f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBNor_Alpha.png using Guid(7057cf62e20104d44a2fc425f418f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43278462eee2f8be9502b80c5130d6e3') in 0.011114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PokemonAssets/Pichu/images/Material #149.mat
+  artifactKey: Guid(21bbbf3859795cc46b4da1696bc9b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/Material #149.mat using Guid(21bbbf3859795cc46b4da1696bc9b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972acc510daeb184d93f1cc8584ae899') in 0.010705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_MouthNor.png
+  artifactKey: Guid(532ca391bd1c6b544a53334b86932acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_MouthNor.png using Guid(532ca391bd1c6b544a53334b86932acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ccce6e125ffcbbecead98b4ac6d71a') in 0.010065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyA1.png
+  artifactKey: Guid(c1e88dcc4fae82041aac385cd830ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyA1.png using Guid(c1e88dcc4fae82041aac385cd830ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c5fef7c000d050ce83a282941586e0') in 0.010531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_Eye1.png
+  artifactKey: Guid(03acff5dc4b377a458689dbaa5750ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_Eye1.png using Guid(03acff5dc4b377a458689dbaa5750ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd49de6518521ce3df82db34783c175') in 0.010735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyANor_Alpha.png
+  artifactKey: Guid(6634e1d5badc89748a05948a89c95d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyANor_Alpha.png using Guid(6634e1d5badc89748a05948a89c95d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff38266cfacaea0cf9317675855e8b6f') in 0.011323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyANor.png
+  artifactKey: Guid(7287a654dc205e7409ee7d4709bff4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyANor.png using Guid(7287a654dc205e7409ee7d4709bff4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2a0308488e6fb39491495fe3cc44df') in 0.022648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyB1.png
+  artifactKey: Guid(e832e53c325df174c870a835923702e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyB1.png using Guid(e832e53c325df174c870a835923702e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e938c23720afd6ad48035f82c46b038') in 0.011468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_Mouth1.png
+  artifactKey: Guid(a622cc40391251f439556a7002d6d526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_Mouth1.png using Guid(a622cc40391251f439556a7002d6d526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4889e91b6fd994dbd76af4862eebe5') in 0.010690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_Mouth1Id.png
+  artifactKey: Guid(0a22dc8eb9052c344b2b72a64dc84889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_Mouth1Id.png using Guid(0a22dc8eb9052c344b2b72a64dc84889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2fafb674948d2557a5ad4d495ea62f') in 0.011229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyA1Id.png
+  artifactKey: Guid(52a2baa1f24d2334582b634d0f5bdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyA1Id.png using Guid(52a2baa1f24d2334582b634d0f5bdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61c87766cfb1fec9e941047cb8b26e1') in 0.010594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_EyeNor.png
+  artifactKey: Guid(781e555b4f3b57a45ad124705b058f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_EyeNor.png using Guid(781e555b4f3b57a45ad124705b058f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0d1d294a362dbdf361d3747ce13624') in 0.014245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBInc.png
+  artifactKey: Guid(8fc01910c32ac25478aea5cd82081357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/images/pm0172_00_BodyBInc.png using Guid(8fc01910c32ac25478aea5cd82081357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c1a2359517b0dda4895baccb38e89') in 0.011605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.417816 seconds.
+  path: Assets/PokemonAssets/Bidoof/anim.dae
+  artifactKey: Guid(10688737bbadb79499aa8045cc85f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/anim.dae using Guid(10688737bbadb79499aa8045cc85f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c2899e2ab14522bb6281f9a92f4fd7') in 0.150238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PokemonAssets/Bidoof/Bippa_eyeNorOS_ctr_nrm.png
+  artifactKey: Guid(acf84817bbed26146aef9e2c5e179c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/Bippa_eyeNorOS_ctr_nrm.png using Guid(acf84817bbed26146aef9e2c5e179c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcda995de75ab614c6d5bf23b5a1a2cc') in 0.009591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PokemonAssets/Bidoof/Bippa_eyeCl_ctr.png
+  artifactKey: Guid(dc7376f1b3609934b8049b2597f067ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/Bippa_eyeCl_ctr.png using Guid(dc7376f1b3609934b8049b2597f067ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef10e361d25a7bc3de2d23a5b16fe6e') in 0.008751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PokemonAssets/Bidoof/Bippa_bodyNorOS_ctr.png
+  artifactKey: Guid(d6fad9913544abf499c2b0dd2906d046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/Bippa_bodyNorOS_ctr.png using Guid(d6fad9913544abf499c2b0dd2906d046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284c5f1a63e8f1a82dbc2669123d6bf6') in 0.009294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PokemonAssets/Bidoof/Bippa_bodyNorOS_ctr_nrm.png
+  artifactKey: Guid(6e698de0b890f4b4694a804ac04f50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/Bippa_bodyNorOS_ctr_nrm.png using Guid(6e698de0b890f4b4694a804ac04f50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e655d5e67cef9a3b60563280946e732b') in 0.013929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.469859 seconds.
+  path: Assets/PokemonAssets/Bidoof/Bidoof.obj
+  artifactKey: Guid(125cfd2aa30858448a29558a996dcce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Bidoof/Bidoof.obj using Guid(125cfd2aa30858448a29558a996dcce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c60e89f095effe5fa38107051e5b6b') in 0.058693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.092892 seconds.
+  path: Assets/PokemonAssets/Budew/subomii_00.dae
+  artifactKey: Guid(503c0a9c0363c124f9863c38f9c950a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Budew/subomii_00.dae using Guid(503c0a9c0363c124f9863c38f9c950a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6193bf81d7c0c65b6978c165ba35e3a') in 0.100326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.508450 seconds.
+  path: Assets/PokemonAssets/Budew/Budew.dae
+  artifactKey: Guid(503c0a9c0363c124f9863c38f9c950a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Budew/Budew.dae using Guid(503c0a9c0363c124f9863c38f9c950a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58046b69cb15ccb12c6c9b3265deba8') in 0.062435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 268.157151 seconds.
+  path: Assets/PokemonAssets/Pichu/Pichu.FBX
+  artifactKey: Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PokemonAssets/Pichu/Pichu.FBX using Guid(dbab677e092d1a84e9bf370722968eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2bfb6feddd0c4a2f690f66d43e5e9') in 0.074320 seconds 
