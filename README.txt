@@ -21,6 +21,8 @@ I included the main school building, the training hall, obstacles in the field s
 
 Demo Video Link: https://youtu.be/uQpZ950X46E
 
+Google Drive Link (just in case): https://drive.google.com/drive/folders/1CSY9N_QS94kYQH-NzT9PQqDt_tcHAOpB?usp=sharing
+
 Links to refrences/textures/assets:
 - Wood for crate by Katsukagi: https://3dtextures.me/2019/09/20/wood-021/ 
 - Tree Bark for blockage by Katsukagi: https://3dtextures.me/2020/01/21/bark-pine-002/ 
